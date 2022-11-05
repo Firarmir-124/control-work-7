@@ -1,0 +1,23 @@
+.menu-items {
+    background: #c90076;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.menu-items:hover {
+    background: rgba(201, 0, 118, 0.74);
+}
+
+.menu-items h3 {
+    text-transform: uppercase;
+}
+
+.menu-items img {
+    width: 100px;
+    height: auto;
+}
