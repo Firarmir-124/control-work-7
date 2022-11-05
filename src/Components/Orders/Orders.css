@@ -1,12 +1,13 @@
 .orders {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     width: 400px;
     flex-shrink: 1;
     padding: 10px;
     text-align: center;
     box-shadow: 20px 0 7px 0 #c90076;
     z-index: 1;
+    overflow-y: scroll;
 }
 
 .modal-text {
