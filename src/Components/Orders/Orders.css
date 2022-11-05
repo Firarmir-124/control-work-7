@@ -1,0 +1,33 @@
+.orders {
+    position: relative;
+    min-height: 100vh;
+    width: 400px;
+    flex-shrink: 1;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 20px 0 7px 0 #c90076;
+    z-index: 1;
+}
+
+.modal-text {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.68);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.totalPrise {
+    position: absolute;
+    display: inline-block;
+    background: #1c1c21;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+}
