@@ -13,8 +13,8 @@ const Generation:React.FC<GenerationType> = ({order, removeItem, ITEMS}) => {
 
   let generation:React.ReactNode[] = [<span key={'text'} className='modal-text'>Выберите что-то из меню</span>];
 
-  order.map((item, index) => {
-    if (item.counter > 0) {
+  order.forEach((item, index) => {
+     if (item.counter > 0) {
       generation.push (
         <OrderItems
           remove={() => removeItem(ITEMS[index].id)}
