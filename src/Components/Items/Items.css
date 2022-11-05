@@ -1,0 +1,18 @@
+.items {
+    position: relative;
+    min-height: 100vh;
+    flex-grow: 1;
+    background: #24253e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.items h1 {
+    position: absolute;
+    top: 0;
+    font-size: 50px;
+    color: #fff;
+}
